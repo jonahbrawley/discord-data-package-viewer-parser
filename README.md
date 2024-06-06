@@ -1,7 +1,11 @@
 # discord-data-package-viewer-parser
-This program can parse and make the discord data package easier to read.
-# To use
-[Click Here](https://github.com/ramzialhaddadtm/discord-data-package-viewer-parser/releases) and download the build.rar file and follow the instructions on that same page. (Below the download)
+My fork of ramzialhaddad's original simple python program for browsing Discord package data. Updated to stop FileNotFoundError
+# Building
+Building yourself is fairly trivial. Dependencies:
+- pandas
+- PyQt5
+- PyInstaller
+Build by executing `pyinstaller --onefile --clean main.py`. A dist/ folder will be created with the build inside. If the app instantly closes when running, try executing in CMD and spotting if you are missing any dependencies
 # What it can do now
 Currently it reads all your direct messages and showing usernames and such.
 # Comming Features

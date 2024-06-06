@@ -110,7 +110,7 @@ class Ui_MainWindow(object):
 				if channelIndex[zz] != None:
 					if relationshipThing(self, "text") in channelIndex[zz]:
 						self.listWidget_2.clear()
-						df = pandas.read_csv("messages/"+zz+"/messages.csv")
+						df = pandas.read_csv("messages/c"+zz+"/messages.csv")
 						chats = df.Contents
 						chatList = []
 						for chat in chats:
